@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 class="heading">Book Inventory</h1>
+    <div class="container">
+    <table>
+        <tr>
+            <form onsubmit="event.preventDefault()" autocomplete="off">
+                <div>
+                    <label>Title</label>
+                    <input type="text" name="title" id="title">
+                </div><br>
+                <div>
+                    <label>Gener</label>
+                    <input type="text" name="gener" id="gener">
+                </div><br>
+                <div>
+                    <label>Quantity</label>
+                    <input type="number" name="quantity" id="quantity">
+                </div><br>
+                <div class="form-action-buttons">
+                    <button class="btn btn-success" type="submit" onclick="formsubmit()">Submit</button>
+                </div>
+            </form><br>
+            </form>
+            </td>
+        </tr>
+    </table>
+</div>
+    <table class="list" id="librarylist">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Gener</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+
+    </table>
+    <script src="Library.js"></script>
+</body>
+
+</html>

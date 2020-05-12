@@ -1,0 +1,54 @@
+body >table{
+    width: 80%;
+}
+
+.container {
+    height: 310px;
+    width: 400px;
+    margin: 80px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    background: #f7f7f7;
+    border-radius: 20px;
+  }
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: lightgray;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+h1{
+    text-align: center;
+}
